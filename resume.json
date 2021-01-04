@@ -1,70 +1,85 @@
 {
+  "meta": {
+    "theme": "elegant"
+  },
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
+    "name": "Didier CHEUNG AH SEUNG",
+    "label": "Javascript developpeur",
+    "picture": "https://avatars3.githubusercontent.com/u/7280656?s=400&u=a744d3e8b0c1e5ff6c87f1b108053a37a46c66bd&v=4",
+    "email": "cheung.didier@gmail.com",
+    "phone": "06 88 94 53 49",
+    "website": "https://github.com/casdidier",
+    "summary": "Hey, I'm a construction engineer turned software engineer and blockchain technology enthusiast, I like to build things that have strong impact. My latest web app was about building a dashboard for Parking company that helped sales to handle the subscriptions and retrieve data for future marketing purposes. Currently, I am volunteering working on application to handle bookings for a small hotel business with a challenge to do in React and MongoDB. I am opened to new propositions around back end/front end technologies.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "7 rue du chateau",
+      "postalCode": "92 600",
+      "city": "Asnières-sur-Seine",
+      "countryCode": "FR",
+      "region": "Ile de France"
     },
     "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
+      "network": "Github",
+      "username": "casdidier",
+      "url": "https://github.com/casdidier"
     }]
   },
   "work": [{
-    "company": "Company",
-    "position": "President",
+    "company": "Bamboo Hotel",
+    "position": "Freelance",
+    "startDate": "2020-02-01",
+    "endDate": "current",
+    "summary": "Realization of an application for a Hotel in Madagascar (capacity of 35 bungalows in Ifaty) which seeks to do without "paper booklets" for the management of reservations, stocks ofgoods and furnishings of the hotel.",
+    "highlights": [
+      "New thing",
+      "REACT, REDUX, BOOTSTRAP, NODE.JS, EXPRESS, MONGODB, DOCKER, ,JEST, ENZYME, ESLINT"
+    ]
+  },
+  {
+    "company": "Capgemini",
+    "position": "Software consultant",
+    "startDate": "2019-09-01",
+    "endDate": "2020-09-30",
+    "summary": "worked on differents Front-end projects and Test automation projects for large companies",
+    "highlights": [
+      "environement : REACT, GITLAB, SQL, TestComplete"
+    ]
+  },
+  {
+    "company": "Government of Monaco",
+    "position": "Software consultant",
     "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
+    "startDate": "2019-01-01",
+    "endDate": "2019-09-01",
+    "summary": "I took part in the overhaul of the administrative information system of the Parking de Monaco (management of the 15,500 parking spaces over 2 km2). The project consisted of the realisation of dashboards at for sales and management, powered by REST APIs structured in microservices.",
     "highlights": [
-      "Started the company"
+      "GITLAB, SQL, TDD, NODE.JS, MICROSERVICES, EXPRESS, VUE.JS, POSTGRESSQL, KNEX, ELASTIC, KIBANA, ELECTRON, , SONARQUBE, BUEFY/BULMA, REDIS"
     ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
+  },
+  {
+    "company": "Amadeus",
+    "position": "Quality Test Automation consultant",
+    "website": "http://amadeus.com",
+    "startDate": "2015-09-01",
+    "endDate": "2019-01-01",
+    "summary": "In order to shorten the time required to put a B2B application into production for agencies travel, I participated within a QA organisation in the improvement of processes, methods of testing and tooling.",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "TRAVEL INDUSTRY, GEB-SPOCK, JENKINS, JAVA, ANGULAR, ARIA-TEMPLATES, "
     ]
-  }],
+  }
+],
   "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
+    "institution": "Engineering School Arts et Métiers ParisTech",
+    "area": "Risk Management",
+    "studyType": "Master degree",
+    "startDate": "2013-01-01",
+    "endDate": "2015-01-01"
+  },
+  {
+    "institution": "ESTP",
+    "area": "Mechanical Engineering",
+    "studyType": "Master degree",
+    "startDate": "2010-01-01",
+    "endDate": "2015-01-01"
   }],
   "skills": [{
     "name": "Web Development",
@@ -74,16 +89,39 @@
       "CSS",
       "Javascript"
     ]
+  },
+  {
+    "name": "React ecosystem",
+    "level": "Intermediaire",
+    "keywords": [
+      "Redux",
+      "Hooks",
+      "JSX"
+    ]
   }],
-  "languages": [{
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
     "language": "English",
-    "fluency": "Native speaker"
+    "fluency": "Professionnal"
   }],
   "interests": [{
     "name": "Wildlife",
     "keywords": [
-      "Ferrets",
-      "Unicorns"
+      "Ecology",
+      "Greenology",
+      "Energy suffiency"
+    ]
+  },
+  {
+    "name": "Wildlife",
+    "keywords": [
+      "Ecology",
+      "Greenology",
+      "Energy suffiency"
     ]
   }],
   "references": [{
